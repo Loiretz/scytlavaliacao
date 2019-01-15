@@ -1,0 +1,146 @@
+/* ESTILO DE BACKGROUND */
+html, body {
+  height: 100%;
+}
+
+body{
+  background: url("img/bg.png"), linear-gradient(white,#aaded4);
+  margin: 0;
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+}
+
+/* ESTILO HEADER */
+
+.img-logo {
+  height: 30px;
+  width: 300px;
+  display: block;
+  background: url("img/logo.png") no-repeat;
+  background-size: contain;
+  margin-bottom: 10px;
+
+}
+
+.navbar-brand{
+  padding-top: 10px;
+}
+
+nav.navbar-style {
+  background: #282828;
+  padding: 15px 0px;
+}
+
+.divisor{
+  width: 1px;
+  height: 20px;
+  background: white;
+  margin:15px;
+}
+
+.navbar-texto1{
+  color: #009B7D;
+  transition: background 0.4s, color 0.4s;
+}
+
+.navbar-texto1:hover{
+  color: white;
+}
+
+.navbar-texto2{
+  transition: background 0.4s, color 0.4s;
+}
+
+.navbar-texto2:hover{
+  color: white;
+}
+
+/* ESTILO CORPO */
+.secao-geral {
+  background: white;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
+}
+
+.secao-geral-texto{
+  font-family: "Trajan Pro", Times, serif;
+  color: #009B7D;
+}
+
+.texto-data-eleicao{
+  color: #ff3434;
+}
+
+.btn-voto{
+  color: white;
+  border-radius: 50px;
+  text-transform: uppercase;
+  background: #009B7D;
+  transition: background 0.4s, color 0.4s;
+}
+
+.btn-voto:hover {
+	/* background-color: #6207e3; */
+  background-color: #036854;
+	color: white;
+}
+
+.btn-lg{
+  color: white;
+}
+
+.btn-block{
+  padding: 10% 20px 10% 20px;
+}
+
+
+.texto-justificativa{
+  text-align: justify;
+}
+
+/* ESTILO FOOTER */
+footer {
+  background: #282828;
+  padding: 50px 0px 20px 0px;
+  /* position: relative; */
+}
+
+#rodape h4 {
+  color: #919496;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#rodape .footer-text {
+  color: white;
+}
+
+#facebook {
+  font-size: 50px;
+  color: Dodgerblue;
+}
+
+#twitter {
+  font-size: 50px;
+  color: CornflowerBlue;
+}
+
+#instagram {
+  font-size: 48px;
+  color: Orangered;
+}
+
+#youtube {
+  font-size: 50px;
+  color: red;
+}
+
+.empresa-logo {
+  font-size: 16px;
+  color: white;
+}
+
+.icon-footer:hover{
+  transition: background 0.4s, color 0.4s;
+  color: #009B7D;
+}
