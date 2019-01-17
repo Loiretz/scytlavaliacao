@@ -27,165 +27,115 @@
         <span class="sr-only">Alternar Navegação</span>
         <span style="font-size: 30px;"><i class="fa fa-bars"></i></span>
       </button>
-      <a class="navbar-brand" href="#">
-        <span class="img-logo"></span>
-      </div>
+      <a class="navbar-brand" href="#"><span class="img-logo"></span></a>
+    </div>
 
-      <div class="collapse navbar-collapse" id="barra-navegacao">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#vote"><b class="navbar-texto1" style="font-size: 18px;">VOTE!</b></a></li>
-          <li class="divisor" role="separator"></li>
-          <li><a href="#calendario"><b class="navbar-texto2">Calendário</b></a></li>
-          <li class="divisor" role="separator"></li>
-          <li><a href="#estatisticas"><b class="navbar-texto2">Estatísticas</b></a></li>
-          <li class="divisor" role="separator"></li>
-          <li><a href="#justificativa"><b class="navbar-texto2">Justificativa</b></a></li>
+    <div class="collapse navbar-collapse" id="barra-navegacao">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#vote"><b class="navbar-texto1" style="font-size: 18px;">VOTE!</b></a></li>
+        <li class="divisor" role="separator"></li>
+        <li><a href="#calendario"><b class="navbar-texto2">Calendário</b></a></li>
+        <li class="divisor" role="separator"></li>
+        <li><a href="#justificativa"><b class="navbar-texto2">Justificativa</b></a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+<!-- FIM CABEÇALHO -->
+<!-- CORPO -->
+
+
+<!-- container: vote! -->
+<section id="vote">
+  <div class="container secao-geral">
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <ul class="list-unstyled">
+          <li><h3>O período das eleições é de</h3></li>
+          <li><h2 class="texto-data-eleicao">09/01/2019 até 16/01/2019</h2></li>
         </ul>
       </div>
-
-    </div>
-  </nav>
-  <!-- FIM CABEÇALHO -->
-  <!-- CORPO -->
-
-
-  <!-- container: vote! -->
-  <section id="vote">
-    <div class="container secao-geral">
-      <div class="row">
-        <div class="col-md-6 text-center">
-          <ul class="list-unstyled">
-            <li><h3>O período das eleições é de</h3></li>
-            <li><h2 class="texto-data-eleicao">09/01/2019 até 16/01/2019</h2></li>
-          </ul>
-        </div>
-        <div class="col-md-5 text-center">
-          <button type="button" class="btn btn-voto btn-lg btn-block">Clique aqui para votar!</button>
-          <!-- <button type="button" class="btn btn-voto">Danger</button> -->
-        </div>
+      <div class="col-md-5 text-center">
+        <button type="button" class="btn btn-voto btn-lg btn-block"
+        data-toggle="modal" data-target="#modal-login">Clique aqui para votar!</button>
+        <!-- <button type="button" class="btn btn-voto">Danger</button> -->
       </div>
     </div>
-    <!-- container: calendário  -->
-    <br>
-    <div id="calendario" class="container secao-geral">
-      <div class="row">
-        <div class="col-md-12  text-center">
-          <h2 class="secao-geral-texto">Calendário</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 text-justify">
-          <p>&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae efficitur nulla, gravida vehicula eros.
-          In id egestas tellus. Nullam condimentum convallis dapibus. Phasellus non elementum lacus.
-          Aenean faucibus, felis ut aliquet scelerisque, ante risus interdum ligula, non mattis lectus ipsum et dolor. Sed vel vestibulum est.
-          Quisque laoreet molestie turpis ultrices imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          Quisque imperdiet, purus non fringilla faucibus, sem felis dapibus velit, ut fringilla risus est sed quam.
-          Maecenas lacus risus, facilisis a tortor sed, feugiat imperdiet erat. Cras congue elementum turpis at auctor.
-          Etiam nec orci tincidunt, sollicitudin leo at, rutrum lectus.</p>
-        </div>
-        <div class="col-md-6 text-justify">
-          <p>&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae efficitur nulla, gravida vehicula eros.
-          In id egestas tellus. Nullam condimentum convallis dapibus. Phasellus non elementum lacus.
-          Aenean faucibus, felis ut aliquet scelerisque, ante risus interdum ligula, non mattis lectus ipsum et dolor. Sed vel vestibulum est.
-          Quisque laoreet molestie turpis ultrices imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          Quisque imperdiet, purus non fringilla faucibus, sem felis dapibus velit, ut fringilla risus est sed quam.
-          Maecenas lacus risus, facilisis a tortor sed, feugiat imperdiet erat. Cras congue elementum turpis at auctor.
-          Etiam nec orci tincidunt, sollicitudin leo at, rutrum lectus.</p>
-        </div>
+  </div>
+</section>
+<!-- container: calendário  -->
+<br>
+<section id="calendario" >
+  <div class="container secao-geral">
+    <div class="row">
+      <div class="col-md-12  text-center">
+        <h2 class="secao-geral-texto">Calendário</h2>
       </div>
     </div>
-
-    <!-- container: calendário  -->
-    <br>
-    <div id="estatisticas" class="container secao-geral">
-      <div class="row">
-        <div class="col-md-12  text-center">
-          <h2 class="secao-geral-texto">Estatísticas</h2>
-        </div>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <img class="img-responsive" src="img/calendario.png"></img>
       </div>
-      <div class="row">
-        <div class="col-md-4 text-justify">
-          <p>&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae efficitur nulla, gravida vehicula eros.
-          In id egestas tellus. Nullam condimentum convallis dapibus. Phasellus non elementum lacus.
-          Aenean faucibus, felis ut aliquet scelerisque, ante risus interdum ligula, non mattis lectus ipsum et dolor. Sed vel vestibulum est.
-          Quisque laoreet molestie turpis ultrices imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          Quisque imperdiet, purus non fringilla faucibus, sem felis dapibus velit, ut fringilla risus est sed quam.
-          Maecenas lacus risus, facilisis a tortor sed, feugiat imperdiet erat.</p>
-        </div>
-        <div class="col-md-4 text-justify">
-          <p>&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae efficitur nulla, gravida vehicula eros.
-          In id egestas tellus. Nullam condimentum convallis dapibus. Phasellus non elementum lacus.
-          Aenean faucibus, felis ut aliquet scelerisque, ante risus interdum ligula, non mattis lectus ipsum et dolor. Sed vel vestibulum est.
-          Quisque laoreet molestie turpis ultrices imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          Quisque imperdiet, purus non fringilla faucibus, sem felis dapibus velit, ut fringilla risus est sed quam.
-          Maecenas lacus risus, facilisis a tortor sed, feugiat imperdiet erat.</p>
-        </div>
-        <div class="col-md-4 text-justify">
-          <p>&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae efficitur nulla, gravida vehicula eros.
-          In id egestas tellus. Nullam condimentum convallis dapibus. Phasellus non elementum lacus.
-          Aenean faucibus, felis ut aliquet scelerisque, ante risus interdum ligula, non mattis lectus ipsum et dolor. Sed vel vestibulum est.
-          Quisque laoreet molestie turpis ultrices imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          Quisque imperdiet, purus non fringilla faucibus, sem felis dapibus velit, ut fringilla risus est sed quam.
-          Maecenas lacus risus, facilisis a tortor sed, feugiat imperdiet erat.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 text-justify">
-          <p>&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae efficitur nulla, gravida vehicula eros.
-          In id egestas tellus. Nullam condimentum convallis dapibus. Phasellus non elementum lacus.
-          Aenean faucibus, felis ut aliquet scelerisque, ante risus interdum ligula, non mattis lectus ipsum et dolor. Sed vel vestibulum est.
-          Quisque laoreet molestie turpis ultrices imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          Quisque imperdiet, purus non fringilla faucibus, sem felis dapibus velit, ut fringilla risus est sed quam.
-          Maecenas lacus risus, facilisis a tortor sed, feugiat imperdiet erat.</p>
-        </div>
-        <div class="col-md-4 text-justify">
-          <p>&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae efficitur nulla, gravida vehicula eros.
-          In id egestas tellus. Nullam condimentum convallis dapibus. Phasellus non elementum lacus.
-          Aenean faucibus, felis ut aliquet scelerisque, ante risus interdum ligula, non mattis lectus ipsum et dolor. Sed vel vestibulum est.
-          Quisque laoreet molestie turpis ultrices imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          Quisque imperdiet, purus non fringilla faucibus, sem felis dapibus velit, ut fringilla risus est sed quam.
-          Maecenas lacus risus, facilisis a tortor sed, feugiat imperdiet erat.</p>
-        </div>
-        <div class="col-md-4 text-justify">
-          <p>&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae efficitur nulla, gravida vehicula eros.
-          In id egestas tellus. Nullam condimentum convallis dapibus. Phasellus non elementum lacus.
-          Aenean faucibus, felis ut aliquet scelerisque, ante risus interdum ligula, non mattis lectus ipsum et dolor. Sed vel vestibulum est.
-          Quisque laoreet molestie turpis ultrices imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          Quisque imperdiet, purus non fringilla faucibus, sem felis dapibus velit, ut fringilla risus est sed quam.
-          Maecenas lacus risus, facilisis a tortor sed, feugiat imperdiet erat.</p>
-        </div>
+      <div class="col-md-6 text-justify">
+        <h4 class="text-center secao-geral-texto">Datas Importantes</h4>
+        <table class="table">
+          <thead>
+            <tr style="background: #c1e7df; font-size: 14px;">
+              <th scope="col"></th>
+              <th scope="col">Dia</th>
+              <th scope="col">Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span><i class="calendar-holiday fa fa-circle fa-fw"></i></span></td>
+              <td><b>01/01/2019</b></td>
+              <td>Feriado de Ano Novo</td>
+            </tr>
+            <tr>
+              <td><span><i class="calendar-election fa fa-circle fa-fw"></i></span></td>
+              <td><b>09/01/2019</b></td>
+              <td>Início do período de votação</td>
+            </tr>
+            <tr>
+              <td><span><i class="calendar-election fa fa-circle fa-fw"></i></span></td>
+              <td><b>16/01/2019</b></td>
+              <td>Fim do período de votação</td>
+            </tr>
+            <tr>
+              <td><span><i class="calendar-result fa fa-circle fa-fw"></i></span></td>
+              <td><b>30/01/2019</b></td>
+              <td>Resultado Eleições Esmeralda 2019</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
+  </div>
+</section>
+<br>
 
-    <!-- container: calendário  -->
-    <br>
-    <div id=justificativa class="container secao-geral">
-      <div class="row">
-        <div class="col-md-12  text-center">
-          <h2 class="secao-geral-texto">Justificativa</h2>
-        </div>
+<!-- container: calendário  -->
+<section id=justificativa>
+  <div class="container secao-geral">
+    <div class="row">
+      <div class="col-md-12  text-center">
+        <h2 class="secao-geral-texto">Justificativa</h2>
       </div>
-      <div class="row">
-        <div class="col-md-12 texto-justificativa">
-          <p>&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae efficitur nulla, gravida vehicula eros.
-          In id egestas tellus. Nullam condimentum convallis dapibus. Phasellus non elementum lacus.
-          Aenean faucibus, felis ut aliquet scelerisque, ante risus interdum ligula, non mattis lectus ipsum et dolor. Sed vel vestibulum est.
-          Quisque laoreet molestie turpis ultrices imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          Quisque imperdiet, purus non fringilla faucibus, sem felis dapibus velit, ut fringilla risus est sed quam.
-          Maecenas lacus risus, facilisis a tortor sed, feugiat imperdiet erat. Cras congue elementum turpis at auctor.
-          Etiam nec orci tincidunt, sollicitudin leo at, rutrum lectus.</p>
-          <p>&emsp;Donec consectetur pharetra nunc in viverra.
-          Suspendisse ut pretium nulla, vitae sagittis nibh.
-          Praesent fermentum placerat vulputate.
-          Aliquam tristique consectetur libero ut dignissim.
-          Etiam et cursus lacus. Duis mattis iaculis magna.
-          Ut sed vehicula magna. Nunc eget sapien eros.
-          Sed vitae leo rutrum, pretium ante in, laoreet metus.
-          Fusce tempor at lorem a vulputate. Praesent vestibulum eros elementum mauris dapibus placerat sed a nisl.
-          Phasellus fringilla orci mauris, et tempor libero facilisis in.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-12 texto-justificativa">
+        <h5>Em caso de voto em branco ou nulo, os seguintes cuidados devem ser tomados, atentando-se a justificar claramente o motivo da abstenção.</h5>
+        <ul>
+          <li>Motivo 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, turpis sit amet suscipit lobortis,
+            ante magna hendrerit nulla, vel fringilla massa neque at nibh. Nam nibh orci, vulputate non venenatis non, lacinia quis velit.</li>
+            <li>Motivo 2 - Phasellus dolor magna, blandit ut auctor ut, blandit a velit. Donec non erat vulputate, mollis leo quis, finibus dui.</li>
+            <li>Motivo 3 - Nam ullamcorper fringilla lacus, et egestas nunc sodales sit amet. Duis cursus vulputate sem, quis condimentum risus.
+              Proin consequat est eu venenatis fringilla. Morbi rutrum nec metus sed feugiat.</li>
+            </ul>
           </div>
         </div>
-        <br>
       </section>
       <br>
 
@@ -202,8 +152,6 @@
                   <li><h5 class="empresa-logo">Esmeralda Empreendimento (®) </h5></a></li>
                   <li class="text-center empresa-logo">2018 - 2019</li>
                 </div>
-
-
                 <div class="col-md-4 text-right">
                   <h4>Contatos</h4>
                   <ul class="list-unstyled footer-text">
@@ -227,16 +175,47 @@
               </div><!-- /row -->
             </div>
           </footer>
-
           <!-- FIM RODAPÉ -->
+          <!-- Modal Login -->
+          <form class="modal fade" id="modal-login">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <!-- cabecalho -->
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                  </button>
+                  <h4 class="modal-header-style">Login</h4>
+                  <h5>Entre com sua conta para continuar com seu voto</h5>
+                </div>
 
+                <!-- corpo -->
+                <div class="modal-body">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" id="senha" placeholder="digite sua senha">
+                  </div>
+                </div>
+                <!-- rodape -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">
+                    Cancelar
+                  </button>
+                  <button type="button" class="btn btn-success" id="logon" data-dismiss="modal">
+                    Login
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
           <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
           <!-- Include all compiled plugins (below), or include individual files as needed -->
           <script src="bootstrap/js/bootstrap.min.js"></script>
           <script src=javascript.js></script>
-
+          <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js"></script>
 
         </body>
-
         </html>

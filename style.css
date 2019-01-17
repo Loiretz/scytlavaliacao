@@ -19,12 +19,19 @@ body{
   background: url("img/logo.png") no-repeat;
   background-size: contain;
   margin-bottom: 10px;
+}
 
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
 }
 
 .navbar-brand{
   padding-top: 10px;
 }
+
 
 nav.navbar-style {
   background: #282828;
@@ -36,6 +43,12 @@ nav.navbar-style {
   height: 20px;
   background: white;
   margin:15px;
+}
+
+.divisor-h{
+  width: 1px;
+  weight: 30px;
+  background: grey;
 }
 
 .navbar-texto1{
@@ -56,6 +69,12 @@ nav.navbar-style {
 }
 
 /* ESTILO CORPO */
+
+.img-responsive {
+    width: 90%;
+    text-align: center;
+}
+
 .secao-geral {
   background: white;
   padding: 20px 20px 20px 20px;
@@ -65,6 +84,19 @@ nav.navbar-style {
 .secao-geral-texto{
   font-family: "Trajan Pro", Times, serif;
   color: #009B7D;
+}
+
+.calendar-holiday {
+  font-size: 6px;
+  color: #9b9001;
+}
+
+.calendar-election{
+  color: #9b001e;
+}
+
+.calendar-result{
+  color: #009b7d;
 }
 
 .texto-data-eleicao{
@@ -96,6 +128,22 @@ nav.navbar-style {
 
 .texto-justificativa{
   text-align: justify;
+}
+
+.modal-header-style{
+  font-family: "Trajan Pro", Times, serif;
+  color: #009B7D;
+}
+
+/* Estilo Modal */
+
+.img-modal {
+  width: 20%;
+  height: auto;
+}
+
+.td-foto {
+   text-align: center;
 }
 
 /* ESTILO FOOTER */

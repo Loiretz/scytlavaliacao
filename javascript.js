@@ -23,3 +23,19 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+$('#logon').on( 'click', function () {
+    $.LoadingOverlay("show");
+    //funcao de login vem aqui
+    window.location.replace("voto.html");
+    $.Loadingoverlay("hide");
+});
+
+$('#enviar-voto').on('click', function(){
+  $('#modal-voto').modal("show");
+  window.location.replace("index.html");
+});
+
+// $('#modal-vote').on('hidden.bs.modal', function(){
+//   $.LoadingOverlay("hide");
+// });
