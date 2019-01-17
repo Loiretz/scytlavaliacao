@@ -1,6 +1,12 @@
 # Scytl - Prova Design
 
-A página Web disponível neste repositório segue como modelo o modelo esboçado na descrição da atividade; uma página simples de eleição, contendo um menu superior, identidade visual e utilidade.
+
+Antes de iniciar, preparei um brainstorm de como seria a página, tendo em mente os requistitos estabelecidos no documento guia. Busquei inspiração no site do ![TSE](http://www.tse.jus.br/eleicoes/eleicoes-2018) e almejei manter a fidelidade das páginas ao estilo proposto neste brainstorm. Abaixo, seguem fotos de como foi pensado:
+
+<img src="https://i.imgur.com/i8KoQbU.jpg" width="300"/>
+<img src="https://i.imgur.com/Wrh2Fl8.jpg" width="300"/>
+
+Com isso, teria uma página simples de eleição, contendo um menu superior, identidade visual e utilidades diversas.
 
 Com visual limpo, cores leves e clareza em sua apresentação, as páginas montadas fazem uso extensivo das tecnologias listadas, em especial destaque ao uso de Bootstrap (casado a estilização oferecida pelo HTML 5 
 e CSS) para tornar a página e seus recursos responsivos, atendendo a diversos tipos de dispositivos.
